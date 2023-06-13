@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+/* GENERAL---------------------------------------------- */
 body {
     background-color: crimson;
     margin: 0;
+    font-family: 'Quattrocento Sans', sans-serif;
+    background-image: url(./assets/backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.gallery-img {
-    width: 30%;
+h1,h2 {
+    font-family: 'Emilys Candy', cursive;
+}
+
+h1 {
+    font-size: 155px;
+    margin: 0px;
+
 }
 
 main {
@@ -13,18 +28,46 @@ main {
     background-color: white;
     padding: 16px;
 }
-
-.home-img {
-    width: 100%;
-}
-.home-video{
-    width: 800px;
-    height: 450px;
-}
-footer{
+footer {
     background-color: #050512;
     color: white;
     padding: 20px;
     text-align: center;
+}
 
+header {
+    background-image: url(./assets/headerimg.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(0, 139, 139, 0.775);
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(172, 255, 47, 0.668);
+    padding: 20px;
+}
+
+/* HOME----------------------------------------------------- */
+.home-img {
+    width: 100%;
+}
+
+.home-video {
+    width: 800px;
+    height: 450px;
+}
+
+.nav-link {
+    color: crimson;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0px 4px;
+}
+
+/* GALLERY----------------------------------------------------- */
+
+.gallery-img {
+    width: 30%;
 }
